@@ -1,9 +1,12 @@
 <?php
-    /**
-     * *sprintf()
-     * ? Esta función es similar a printf(), pero en lugar de imprimir la cadena formateada en la salida estándar, devuelve la cadena formateada como resultado.
-     */
-    $texto = "Mundo";
-    $mensaje = sprintf("Hola %s", $texto);
-    echo $mensaje;
+    //Variables
+    //* Declarar una variable numérica */
+    $edad = 18;
+
+    //? Declarar una variable de texto */
+    $nombre = "Santiago";
+
+    //* Declarar una variable booleana*/
+    $es_valido = true;
+    echo var_dump($nombre);
 ?>
