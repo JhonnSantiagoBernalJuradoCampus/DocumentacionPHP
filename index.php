@@ -1,12 +1,12 @@
 <?php
-    //Variables
-    //* Declarar una variable numérica */
-    $edad = 18;
+    //Constantes
+    //*Declarar una constante numérica */
+    define("PI", 3.1416);
 
-    //? Declarar una variable de texto */
-    $nombre = "Santiago";
+    //?Declarar una constante de texto
+    define("SALUDO", "Hola Mundo");
 
-    //* Declarar una variable booleana*/
-    $es_valido = true;
-    echo var_dump($nombre);
+    //*Declarar una constante booleana
+    define("ES_VALIDO", true);
+    echo(SALUDO);
 ?>
