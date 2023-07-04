@@ -1,7 +1,8 @@
 <?php 
     $nombreCliente = "Campers Campuslands";
 
-    //*strlen
-    //?Conocer la amplitud de un string
-    echo strlen($nombreCliente);
+    //* trim
+    //? Eliminar espacios en blanco
+    $texto = trim($nombreCliente);
+    echo strlen($texto);
 ?>
