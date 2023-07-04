@@ -1,12 +1,7 @@
-<?php
-    //Constantes
-    //*Declarar una constante numérica */
-    define("PI", 3.1416);
+<?php 
+    $nombreCliente = "Campers Campuslands";
 
-    //?Declarar una constante de texto
-    define("SALUDO", "Hola Mundo");
-
-    //*Declarar una constante booleana
-    define("ES_VALIDO", true);
-    echo(SALUDO);
+    //*strlen
+    //?Conocer la amplitud de un string
+    echo strlen($nombreCliente);
 ?>
